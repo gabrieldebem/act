@@ -1,6 +1,6 @@
 import { configDotenv } from "dotenv";
 import { TogglRepository } from "./src/repositories/toggl.repository";
-import chalk, { Chalk } from "chalk";
+import chalk from "chalk";
 
 const args = process.argv.slice(2);
 configDotenv();
