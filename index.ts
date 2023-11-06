@@ -1,3 +1,5 @@
+#!/usr/bin/env bun
+
 import { configDotenv } from "dotenv";
 import { TogglRepository } from "./src/repositories/toggl.repository";
 import chalk from "chalk";
